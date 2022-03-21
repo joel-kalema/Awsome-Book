@@ -26,13 +26,7 @@ by tapping **git clone git@github.com:DanUshindi/Awsome-Book.git**
 
 This website is used for refrence concerning my skills and experience as a programmer.
 
-## Authors
-
-👤 **Dan Ushindi**
-
-- GitHub: [@githubhandle](https://github.com/DanUshindi)
-- Twitter: [@twitterhandle](https://twitter.com/dan_ushindi)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dan-ushindi-821415215/)
+## Author
 
 👤 **JOEL KALEMA**
 
