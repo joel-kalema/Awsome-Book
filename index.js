@@ -6,7 +6,7 @@ const addBookForm = document.querySelector('#add-book');
 const list = document.querySelector('.list');
 const time = document.querySelector('.time');
 
-function formatAMPM(date) {
+const formatAMPM = (date) => {
   let hours = date.getHours();
 
   let minutes = date.getMinutes();
@@ -24,7 +24,7 @@ function formatAMPM(date) {
   const match = date.toString().match(/\w{3} \w{3} \d{1,2} \d{4}/);
 
   return `${match[0]} ${time}`;
-}
+};
 const today = new Date();
 time.textContent = formatAMPM(today);
 
