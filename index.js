@@ -48,7 +48,7 @@ const SetupTabs = () => {
       tabToActivate.classList.add('tab__content--active');
     });
   });
-}
+};
 
 document.addEventListener('DOMContentLoaded', () => {
   SetupTabs();

@@ -12,7 +12,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://danushindi.github.io/Awsome-Book/)
+[Live Demo Link](https://joel-kalema.github.io/Awsome-Book/)
 
 ## Getting Started
 
