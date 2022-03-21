@@ -19,7 +19,7 @@
 -Before you have to install Git App and if you dont have it you can download it via [https://git-scm.com/downloads]
 
 -After you have to create a repo in Git and clone it
-by tapping **git clone git@github.com:DanUshindi/Awsome-Book.git**
+by tapping **git clone git@github.com:joel-kalema/Awsome-Book.git**
 -Then you can create a new branch and begin to work on it
 
 ### Usage
