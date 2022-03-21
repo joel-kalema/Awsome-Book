@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="header">
+        <h1 class="title">Awesome books</h1>
+        <div class="time"></div>
+      </div>
+      <div class="tab__sidebar">
+        <button class="tab__button tab__button--active" data-for-tab="1">
+          List
+        </button>
+        <button class="tab__button" data-for-tab="2">Add book</button>
+        <button class="tab__button" data-for-tab="3">Contacts</button>
+      </div>
+
+      <section class="tab__content tab__content--active list" data-tab="1">
+        <h1>List of Books</h1>
+        <ul class="list"></ul>
+      </section>
+
+      <section class="tab__content form-containt" data-tab="2">
+        <h1>Add Book</h1>
+        <form action="#" id="add-book" class="form">
+          <input
+            type="text"
+            id="title"
+            class="inputs"
+            placeholder="Title"
+          /><br />
+          <input
+            type="text"
+            id="author"
+            class="inputs"
+            placeholder="Author"
+            maxlength="30"
+          />
+          <br />
+          <button type="submit">Add</button>
+        </form>
+      </section>
+
+      <section class="tab__content contact" data-tab="3">
+        <h1>contact information</h1>
+
+        <div class="cotact-containt">
+          <p>Do you have any questions or you just want to say "Hello"?</p>
+          <p>You can reach out to us!</p>
+          <h2>Joel</h2>
+          <p>My mail: joelkalema63@gmail.com</p>
+          <p>My number: +250 78XXXXXXXX</p>
+        </div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
