@@ -12,19 +12,6 @@ const timeNow = () => {
   time.innerHTML = now.toFormat('ccc HH:mm:ss');
 };
 
-// const DateTime = luxon;
-// /*eslint-disable*/
-// setInterval(() => {
-//   const today = DateTime.local();
-//   const modified = today
-//     .toLocaleString({ ...DateTime.DATETIME_MED_WITH_SECONDS, month: "long" })
-//     .split(" ");
-//   const dateNum = parseInt(modified[1], 10);
-//   modified[1] = dateNum + getNumberSuffix(dateNum);
-//   modified[modified.length - 1] = modified[modified.length - 1].toLowerCase();
-//   time.innerHTML = modified.join(" ");
-// }, 1000);
-
 setInterval(() => {
   timeNow();
 }, 1000);
