@@ -12,7 +12,6 @@ const timeNow = () => {
   time.innerHTML = now.toFormat('ccc HH:mm:ss');
 };
 
-// /*eslint-disable*/
 // const DateTime = luxon;
 // /*eslint-disable*/
 // setInterval(() => {
