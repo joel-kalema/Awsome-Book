@@ -1,5 +1,5 @@
 import Bookstore from './modules/books.js';
-import formatAMPM from './modules/time.js';
+// import formatAMPM from './modules/time.js';
 import SetupTabs from './modules/switch.js';
 
 const author = document.querySelector('#author');
@@ -7,14 +7,28 @@ const title = document.querySelector('#title');
 const addBookForm = document.querySelector('#add-book');
 const list = document.querySelector('.list');
 const time = document.querySelector('.time');
+
+const timeNow = () => {
+  const now = luxon.DateTime.now();
+  time.innerHTML = now.toFormat('ccc HH:mm:ss');
+};
+
 // /*eslint-disable*/
-// let luxon;
-// const { DateTime } = luxon;
+// const DateTime = luxon;
 // /*eslint-disable*/
+// setInterval(() => {
+//   const today = DateTime.local();
+//   const modified = today
+//     .toLocaleString({ ...DateTime.DATETIME_MED_WITH_SECONDS, month: "long" })
+//     .split(" ");
+//   const dateNum = parseInt(modified[1], 10);
+//   modified[1] = dateNum + getNumberSuffix(dateNum);
+//   modified[modified.length - 1] = modified[modified.length - 1].toLowerCase();
+//   time.innerHTML = modified.join(" ");
+// }, 1000);
 
 setInterval(() => {
-  const today = new Date();
-  time.textContent = formatAMPM(today);
+  timeNow();
 }, 1000);
 
 document.addEventListener('DOMContentLoaded', () => {
