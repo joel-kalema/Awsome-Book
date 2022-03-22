@@ -1,5 +1,4 @@
 import Bookstore from './modules/books.js';
-// import formatAMPM from './modules/time.js';
 import SetupTabs from './modules/switch.js';
 
 const author = document.querySelector('#author');
