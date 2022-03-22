@@ -11,8 +11,11 @@ const time = document.querySelector('.time');
 // let luxon;
 // const { DateTime } = luxon;
 // /*eslint-disable*/
-const today = new Date();
-time.textContent = formatAMPM(today);
+
+setInterval(() => {
+  const today = new Date();
+  time.textContent = formatAMPM(today);
+}, 1000);
 
 document.addEventListener('DOMContentLoaded', () => {
   SetupTabs();
