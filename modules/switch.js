@@ -1,4 +1,4 @@
-export default function SetupTabs() {
+const SetupTabs = () => {
   document.querySelectorAll('.tab__button').forEach((button) => {
     button.addEventListener('click', () => {
       const sideBar = button.parentElement;
@@ -18,4 +18,6 @@ export default function SetupTabs() {
       tabToActivate.classList.add('tab__content--active');
     });
   });
-}
+};
+
+export default SetupTabs;
