@@ -1,62 +1,44 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Awosame book
 
-> Description the project.
-
+> The project is to built the Awsome book.To describe what we did as project and who to contact him.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Html
+- css
+- js
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link](https://joel-kalema.github.io/Awsome-Book/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+-Before you have to install Git App and if you dont have it you can download it via [https://git-scm.com/downloads]
 
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
+-After you have to create a repo in Git and clone it
+by tapping **git clone git@github.com:joel-kalema/Awsome-Book.git**
+-Then you can create a new branch and begin to work on it
 
 ### Usage
 
-### Run tests
+This website is used for refrence concerning my skills and experience as a programmer.
 
-### Deployment
+## Author
 
+👤 **JOEL KALEMA**
 
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@joel-kalema](https://github.com/joel-kalema)
+- Twitter: [@JoelJklm](https://www.linkedin.com/in/joel-kalema-30518a230/)
+- LinkedIn: [joel kalema](https://twitter.com/JoelJklm)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [https://github.com/notifications?query=reason%3Areview-requested](../../issues/).
 
 ## Show your support
 
@@ -64,10 +46,12 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Micro-verse
 
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
+## Contributors
+
+- Misheck livingi https://github.com/joel-kalema
