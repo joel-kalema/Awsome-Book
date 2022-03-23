@@ -1,5 +1,6 @@
 import Bookstore from './modules/books.js';
 import SetupTabs from './modules/switch.js';
+import { DateTime } from './modules/luxon.js';
 
 const author = document.querySelector('#author');
 const title = document.querySelector('#title');
@@ -8,7 +9,7 @@ const list = document.querySelector('.list');
 const time = document.querySelector('.time');
 
 const timeNow = () => {
-  const now = luxon.DateTime.now();
+  const now = DateTime.now();
   time.innerHTML = now.toFormat('ccc HH:mm:ss');
 };
 
