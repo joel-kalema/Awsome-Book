@@ -2,7 +2,7 @@
 
 # Awosame book
 
-> The project is to built the Awsome book.To describe what we did as project and who to contact him.
+> The project is to built the Awsome book.To describe what we did as project and who to contact him
 
 ## Built With
 
